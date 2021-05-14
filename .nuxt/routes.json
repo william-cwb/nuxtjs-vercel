@@ -1,0 +1,16 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/williamdavid/Developer/GitHub/nuxtjs-vercel/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_763b1362"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/williamdavid/Developer/GitHub/nuxtjs-vercel/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_79a855f2"
+  }
+]
