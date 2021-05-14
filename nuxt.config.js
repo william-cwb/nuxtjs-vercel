@@ -37,6 +37,14 @@ export default {
     '@nuxtjs/axios',
   ],
 
+  builds: [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {}
+    }
+  ],
+
   /*
    ** Build configuration
    */
