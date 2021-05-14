@@ -1,6 +1,7 @@
 export default {
   ssr: true,
-  target: 'server',
+  target: 'static',
+  mode: "universal",
   /*
    ** Headers of the page
    */
@@ -35,16 +36,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/vercel-builder'
   ],
-
-  builds: [
-    {
-      "src": "nuxt.config.js",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {}
-    }
-  ],
-
   /*
    ** Build configuration
    */
