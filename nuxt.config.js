@@ -34,8 +34,7 @@ export default {
    */
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    '@nuxtjs/vercel-builder'
+    '@nuxtjs/axios'
   ],
 
   builds: [
