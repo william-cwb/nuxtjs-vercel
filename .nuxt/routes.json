@@ -3,14 +3,12 @@
     "name": "index",
     "path": "/",
     "component": "/Users/williamdavid/Developer/GitHub/nuxtjs-vercel/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_763b1362"
+    "chunkName": "pages/index"
   },
   {
     "name": "slug",
     "path": "/:slug",
     "component": "/Users/williamdavid/Developer/GitHub/nuxtjs-vercel/pages/_slug.vue",
-    "chunkName": "pages/_slug",
-    "_name": "_79a855f2"
+    "chunkName": "pages/_slug"
   }
 ]
