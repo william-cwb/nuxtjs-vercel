@@ -39,14 +39,6 @@ export default {
     '@nuxtjs/vercel-builder'
   ],
 
-  builds: [
-    {
-      "src": "nuxt.config.js",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {}
-    }
-  ],
-
   /*
    ** Build configuration
    */
