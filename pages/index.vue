@@ -1,5 +1,6 @@
 <template>
   <div>
+    teste
     <ul v-if="lista">
       <li v-for="item in lista" :key="item.slug">
         <nuxt-link :to="item.slug">{{ item.name }}</nuxt-link>
